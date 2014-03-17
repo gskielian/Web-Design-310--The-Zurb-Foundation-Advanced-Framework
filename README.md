@@ -29,4 +29,4 @@ https://github.com/dlanger/inlinestyler
 4\. **Click on Thunderbird's "Insert -> Html" for and add your inlined html**
 
 
-5\. **click send, and when asked how you did it simply refer to your magic powers.**
+5\. **click send, and when asked how you did it simply refer to your :sparkles: magic powers :sparkles:.**
