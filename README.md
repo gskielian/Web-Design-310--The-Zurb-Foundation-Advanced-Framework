@@ -3,7 +3,8 @@ WD110--Mailing-Lists
 
 How to set up a FOSS mailing list with Thunderbird and Zurb Foundations' Ink Email Templates 
 
-
+Five-Easy-Steps:
+---------------
 
 1\. **How to create a mailing list in thunderbird:**
 
