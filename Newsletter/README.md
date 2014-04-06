@@ -1,10 +1,35 @@
-WD110--Mailing-Lists
-====================
+WD310--Creating-Newsletter
+==========================
+
+*Wow* your blog-followers and store-customer by sending original-design, professional-quality emails.
+
+Really important in maintaining your existing fans/customers as well as reaching out to those who may have been out of touch.
+
+
+
+## Teaching Material
+
+First up, we will create a newsletter with only **FOSS**
+
+
+## Ink + Thunderbird + Inliner
 
 How to set up a FOSS mailing list with Thunderbird and Zurb Foundations' Ink Email Templates 
 
-Five-Easy-Steps:
----------------
+[Steps](#five-easy-steps)
+
+
+## Ink + MailChimp Inliner + MailChimp
+
+Using MailChimp or equivalent won't be free, but it does add extra features (A/B Testing, click analytics,subscribe/unsubscribe).
+
+[Steps](#five-easy-steps)
+
+---
+
+Five-Steps-To-FOSS-newletter
+---
+
 
 1\. **How to create a mailing list in thunderbird:**
 
@@ -30,3 +55,11 @@ https://github.com/dlanger/inlinestyler
 
 
 5\. **click send, and when asked how you did it simply refer to your :sparkles: magic powers :sparkles:.**
+
+
+
+---
+
+## Add Analytics with MailChimp
+ 
+TODO -- write basic steps for this curriculum
