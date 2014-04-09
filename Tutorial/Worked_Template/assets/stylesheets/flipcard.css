@@ -1,0 +1,68 @@
+/* line 13, ../css/flipcard.scss */
+.card-container {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  -webkit-transition: z-index 0.6s;
+  -moz-transition: z-index 0.6s;
+  -o-transition: z-index 0.6s;
+  transition: z-index 0.6s;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+/* line 19, ../css/flipcard.scss */
+.card-container:hover {
+  z-index: 3;
+}
+/* line 23, ../css/flipcard.scss */
+.card-container:hover .card, .card-container.hover .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+/* line 26, ../css/flipcard.scss */
+.card-container .card {
+  position: relative;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* line 31, ../css/flipcard.scss */
+.card-container .card .front, .card-container .card .back {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+/* line 40, ../css/flipcard.scss */
+.card-container .card .front {
+  background: #aaa;
+  z-index: 2;
+}
+/* line 44, ../css/flipcard.scss */
+.card-container .card .back {
+  background: #f8f8f8;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}

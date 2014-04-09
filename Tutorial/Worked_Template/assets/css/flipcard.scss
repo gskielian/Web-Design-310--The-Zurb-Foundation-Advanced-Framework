@@ -1,0 +1,57 @@
+@import "compass/css3";
+
+// Include Foundation 5.0.2
+
+
+// Flip cards
+$rotate: 180deg;
+$cardWidth: 100%;
+$cardHeight: 300px;
+$speed: .6s; 
+$scale: 2;
+
+.card-container {
+  width: $cardWidth;
+  height: $cardHeight;
+  position: relative;
+  @include transition( z-index $speed );
+  @include perspective( 1000 );
+  &:hover{
+    z-index: 3;
+  }
+  &:hover .card,
+  &.hover .card {
+    @include transform( rotateY( $rotate ) );
+  }
+  .card {
+    position: relative;
+    //@include transform( scale( 0.5 ) ); // Initial Scale
+    @include transition( all $speed ease-in-out );
+    @include transform-style( preserve-3d );
+    .front, .back {
+      width: $cardWidth;
+      height: $cardHeight;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 5px;
+      @include backface-visibility( hidden );
+    }
+    .front {
+      background: #aaa;
+      z-index: 2;
+    }
+    .back {
+      background: #f8f8f8;
+      @include transform( rotateY( $rotate ) );
+    }
+  }
+}
+// end Flip cards
+
+
+
+
+
+
+
